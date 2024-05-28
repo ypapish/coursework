@@ -1,3 +1,4 @@
+'use strict'
 function getHistoryVal() {
   return document.getElementById("history-value").innerText;
 }
