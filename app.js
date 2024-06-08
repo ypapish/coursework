@@ -74,9 +74,9 @@ for (let index = 0; index < operator.length; index++) {
   });
 }
 
-const number = document.getElementsByClassName("number");
-for (let i = 0; i < number.length; i++) {
-  number[i].addEventListener("click", function() {
+const buttonNumber = document.getElementsByClassName("number");
+for (let btnNum = 0; btnNum < buttonNumber.length; btnNum++) {
+  buttonNumber[btnNum].addEventListener("click", function() {
       let output = reverseNumberFormat(getOutput());
       if (!isNaN(output)) {
           output = output + this.id;
